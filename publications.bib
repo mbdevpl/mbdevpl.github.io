@@ -1,0 +1,55 @@
+@techreport{kenyuukai2016,
+    title = "Towards Making Legacy HPC Codes Maintainable: Two-Way Fortran-Python Transpilation with Python Type Hints (Unrefereed Workshop Manuscript)",
+    author = "Bysiek, Mateusz and Drozd, Aleksandr and Matsuoka, Satoshi",
+    year = 2016,
+    month = 12,
+    day = 21,
+    location = "那覇市、沖縄県、日本",
+    volume = "2016-HPC-157",
+    language = "en",
+    institution = "情報処理学会",
+    journal = "研究報告ハイパフォーマンスコンピューティング（HPC）",
+    number = "9",
+    pages = "1-10",
+    issn = "2188-8841",
+    customlinkproceedings = "https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_opensearch&index_id=9011",
+    customlinkcitation = "http://jairo.nii.ac.jp/0606/00152420",
+}
+
+@inproceedings{pyhpc2016,
+    title = "Migrating Legacy Fortran to Python While Retaining Fortran-Level Performance
+Through Transpilation and Type Hints",
+    booktitle = "Proceedings of 6th Workshop on Python for High-Performance and Scientific Computing",
+    author = "Bysiek, Mateusz and Drozd, Aleksandr and Matsuoka, Satoshi",
+    year = 2016,
+    month = 11,
+    day = 14,
+    location = "Salt Lake City, Utah, United States of America",
+    language = "en",
+    abstract = "We propose a method of accelerating Python code
+by just-in-time compilation leveraging type hints mechanism
+introduced in Python 3.5. In our approach performance-critical
+kernels are expected to be written as if Python was a strictly
+typed language, however without the need to extend Python
+syntax. This approach can be applied to any Python application,
+however we focus on a special case when legacy Fortran
+applications are automatically translated into Python for easier
+maintenance. We developed a framework implementing two-way
+transpilation and achieved performance equivalent to that
+of Python manually translated to Fortran, and better than
+using other currently available JIT alternatives (up to 5x times
+faster than Numba in some experiments).",
+    keywords = "application migration, gradual typing, interoperability,
+just-in-time compilation, legacy code, software maintenance,
+transpilation",
+    pages = "9-18",
+    isbn = "978-1-5090-5220-2",
+    doi = "10.1109/PyHPC.2016.12",
+    acmid = "3019085",
+    publisher = "IEEE Press",
+    address = "Piscataway, NJ, USA",
+    customlinkproceedings = "http://conferences.computer.org/pyhpc/2016/",
+    customlinkcitation = "https://dl.acm.org/citation.cfm?id=3019085",
+    fulltext = "http://conferences.computer.org/pyhpc/2016/papers/5220a009.pdf",
+    customlinkslides = "/pyhpc2016_slides_handout.pdf",
+}

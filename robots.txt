@@ -1,0 +1,4 @@
+Sitemap: https://mbdevpl.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: mbdevpl.github.io
